@@ -32,7 +32,8 @@ public class RegulatoryInfoPreferenceController extends AbstractPreferenceContro
 
     @Override
     public boolean isAvailable() {
-        return mContext.getResources().getBoolean(R.bool.config_show_regulatory_info);
+        //return mContext.getResources().getBoolean(R.bool.config_show_regulatory_info);
+        return false;
     }
 
     @Override
