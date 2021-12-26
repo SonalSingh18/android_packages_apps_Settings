@@ -247,4 +247,7 @@
     <string name="no_storage_restrict_title">No storage restrict</string>
     <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework. Can be convenient in some cases but may lead to privacy leaks.</string>
 
+    <!-- Refresh rate -->
+    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
+
 </resources>
