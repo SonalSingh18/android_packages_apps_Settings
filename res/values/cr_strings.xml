@@ -1348,4 +1348,9 @@
     <!-- QS Bluetooth Dialog -->
     <string name="qs_bt_show_dialog_title">Bluetooth tile dialog</string>
     <string name="qs_bt_show_dialog_summary">Show bluetooth dialog or toggle bluetooth state on tapping bluetooth tile</string>
+
+    <!-- Allow application downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
+
 </resources>
