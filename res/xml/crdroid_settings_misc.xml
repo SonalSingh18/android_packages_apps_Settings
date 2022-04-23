@@ -62,6 +62,13 @@
         android:summary="@string/netflix_spoof_summary"
         android:defaultValue="false" />
 
+    <!-- Allow application downgrade -->
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/app_downgrade_title"
+        android:summary="@string/app_downgrade_summary"
+        android:defaultValue="false" />
+
     <!-- Google services
     <Preference
         android:key="gms_enabled_settings"
