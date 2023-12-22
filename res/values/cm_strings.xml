@@ -275,4 +275,7 @@
     <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
     <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Additional vibration options</string>
+
 </resources>
