@@ -233,4 +233,11 @@
         android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
         settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 
+    <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+        android:order="96"
+        android:key="no_storage_restrict"
+        android:title="@string/no_storage_restrict_title"
+        android:summary="@string/no_storage_restrict_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
