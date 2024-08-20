@@ -1353,4 +1353,13 @@
     <string name="app_downgrade_title">Allow application downgrade</string>
     <string name="app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
 
+    <!-- Boot animation -->
+    <string name="themes_boot_animation_title">Boot animation</string>
+    <string name="themes_boot_animation_summary">Set boot animation style</string>
+
+    <!-- Themes/Boot animation preview -->
+    <string name="boot_animation_preview_desc">Preview of the selected boot animation</string>
+    <string name="boot_animation_preview_summary">Displays a preview of the currently selected boot animation</string>
+    <string name="boot_animation_preview_title">Boot animation preview</string>
+
 </resources>
