@@ -98,6 +98,13 @@
         android:summary="@string/app_downgrade_summary"
         android:defaultValue="false" />
 
+    <!-- Cache Cleaner -->
+    <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        android:key="cache_cleaner_enabled"
+        android:title="@string/cache_cleaner_title"
+        android:summary="@string/cache_cleaner_summary"
+        android:defaultValue="false" />
+
     <!-- Google services
     <Preference
         android:key="gms_enabled_settings"
