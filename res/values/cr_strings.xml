@@ -1362,4 +1362,8 @@
     <string name="boot_animation_preview_summary">Displays a preview of the currently selected boot animation</string>
     <string name="boot_animation_preview_title">Boot animation preview</string>
 
+    <!-- Cache cleaner -->
+    <string name="cache_cleaner_title">Cache Cleaner</string>
+    <string name="cache_cleaner_summary">Enable the cache cleaner service to automatically clear app caches.</string>
+
 </resources>
