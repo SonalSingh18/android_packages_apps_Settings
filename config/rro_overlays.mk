@@ -16,16 +16,11 @@
 
 # Google Overlays
 PRODUCT_PACKAGES += \
-    CellBroadcastReceiverOverlay \
-    CellBroadcastServiceOverlay \
-    DMServiceOverlay \
     GoogleConfigOverlay \
     GoogleDeviceLockControllerOverlay \
     GoogleDialerConfOverlay \
-    GoogleHealthConnectOverlay \
     GoogleWebViewOverlay \
     MediaProviderOverlay \
-    PearlOverlay2024 \
     PixelAccessibilityMenuOverlay \
     PixelBuiltInPrintServiceOverlay \
     PixelConfigOverlay2018 \
@@ -36,7 +31,6 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     PixelFlipendoOverlay \
     PixelFwOverlay \
-    PixelLauncherCustomOverlay \
     PixelSettingsProviderOverlay \
     PixelSetupWizardOverlay \
     PixelTeleServiceOverlay \
@@ -44,9 +38,7 @@ PRODUCT_PACKAGES += \
     PixelTelephonyProviderOverlay \
     SettingsGoogleOverlay \
     SystemUIGXOverlay \
-    SystemUIGoogleOverlay \
-    WildlifeSettingsVpnOverlay2022 \
-    WildlifeSysuiVpnOverlay2022
+    SystemUIGoogleOverlay
 
 ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita comet tokay caiman komodo, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
