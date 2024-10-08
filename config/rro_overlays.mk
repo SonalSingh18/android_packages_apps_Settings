@@ -17,14 +17,9 @@
 # Google Overlays
 PRODUCT_PACKAGES += \
     AvatarPickerPixelOverlay \
-    CellBroadcastReceiverOverlay \
-    CellBroadcastServiceOverlay \
-    DMServiceOverlay \
     GoogleConfigOverlay \
     GoogleDeviceLockControllerOverlay \
     GoogleDialerConfOverlay \
-    GoogleHealthConnectOverlay \
-    GooglePermissionControllerOverlay \
     GoogleWebViewOverlay \
     ManagedProvisioningPixelOverlay \
     MediaProviderOverlay \
@@ -36,9 +31,6 @@ PRODUCT_PACKAGES += \
     PixelContactsProviderOverlay \
     PixelDocumentsUIGoogleOverlay \
     PixelFrameworkOverlay \
-    PixelLauncherIconsOverlay \
-    PixelLauncherOverlayBlur \
-    PixelLauncherOverlayCustom \
     PixelPrintServiceOverlay \
     PixelSettingsProviderOverlay \
     PixelSetupWizardOverlay \
@@ -49,6 +41,4 @@ PRODUCT_PACKAGES += \
     PixelTetheringOverlay2021 \
     SettingsGoogleOverlay \
     SettingsGoogleOverlayEvolutionX \
-    SystemUIGXOverlay \
-    WildlifeSettingsVpnOverlay2022 \
-    WildlifeSysuiVpnOverlay2022
+    SystemUIGXOverlay
