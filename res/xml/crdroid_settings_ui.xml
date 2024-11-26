@@ -35,6 +35,14 @@
         android:summary="@string/themes_boot_animation_summary"
         android:fragment="com.crdroid.settings.fragments.ui.BootAnimation" />
 
+    <!-- Wallpaper Settings -->
+    <Preference
+        android:key="wallpaper_settings"
+        android:icon="@drawable/ic_settings_ui"
+        android:title="@string/wallpaper_settings_title"
+        android:summary="@string/wallpaper_settings_summary"
+        android:fragment="com.crdroid.settings.fragments.Wallpaper"/>
+
     <!-- Charging animation -->
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="charging_animation"
