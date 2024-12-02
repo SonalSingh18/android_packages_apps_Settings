@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     PixelFrameworkOverlay \
     PixelPrintServiceOverlay \
     PixelSettingsProviderOverlay \
-    PixelSetupWizardOverlay \
     PixelSystemUIGoogleOverlay \
     PixelTeleServiceOverlay \
     PixelTelecomOverlay \
